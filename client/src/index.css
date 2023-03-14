@@ -1,0 +1,61 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   overflow: hidden;
+ }
+ 
+ .content {
+   height: 80vh;
+ }
+ 
+ .resgister-page {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 90vh;
+ }
+ .filters{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  box-shadow: 0 0 3px gray;
+ }
+ .topImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+  cursor: pointer;
+}
+/* antd icons */
+
+.switch-icons {
+  border: 1px solid rgba(0, 0, 0, 0.677);
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.anticon svg {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.active-icon {
+  color: black;
+}
+.inactive-icon {
+  color: gray;
+}
+Form{
+  width: 385px;
+  height: 61%;
+  box-shadow: 5px 2px 5px 2px rgb(0 0 0/ 0.6);
+}
+.expenseForm{
+  width: 100%;
+  height: 100%;
+  box-shadow: none;
+}
